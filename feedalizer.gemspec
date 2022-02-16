@@ -25,7 +25,7 @@ web pages into RSS feeds. If you ask me, it makes it *too* easy.'
 
   spec.add_dependency 'oga', '~> 1.2'
 
-  spec.add_development_dependency 'bundler', '~> 1.10'
+  spec.add_development_dependency 'bundler', '~> 2.1.4'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'minitest', '~> 5.8'
 end
