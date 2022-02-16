@@ -34,7 +34,7 @@ module Feedalizer
     end
 
     def grab_page(url)
-      open(url) { |io| Oga.parse_html(io) }
+      URI.open(url) { |io| Oga.parse_html(io) }
     end
 
     def output
